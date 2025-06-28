@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bitcoinbytes.org/sitemap.xml
+
+# Crawl-delay for responsible crawling
+Crawl-delay: 1
+
+# Allow access to CSS and JS files
+Allow: /assets/
+Allow: /src/
+Allow: /*.css
+Allow: /*.js
+
+# Block access to sensitive areas
+Disallow: /api/
+Disallow: /.env
+Disallow: /server/
